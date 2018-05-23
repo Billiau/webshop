@@ -1,0 +1,48 @@
+.container {
+    width: 50%;
+}
+
+.center {
+    text-align: center;
+}
+
+.title-padding{
+    padding: 3rem 0;
+}
+
+
+/* Buttons */
+
+/* Container needed to position the button. Adjust the width as needed */
+.banner {
+    position: relative;
+    width: 100%;
+}
+
+/* Make the image responsive */
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.banner .btn {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: white;;
+    color: #4D002B;
+    font-size: 32px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border: 1px #4D002B;
+    border-radius: 25px;
+}
+
+.banner .btn:hover {
+    background-color: #4D002B;
+    color: white;
+}
